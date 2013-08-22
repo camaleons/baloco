@@ -1,0 +1,62 @@
+header{
+	background: rgb(0, 120, 167);
+	border-bottom:3px solid #0af;
+	color:#fff;
+	margin:0;
+	padding:.5em;
+	position:fixed;
+	width:100%
+}
+
+header #logo,header #titulo_nav{
+	display:inline-block;
+	vertical-align:top
+}
+
+header #logo{
+	height:40px;
+	width:40px
+	vertical-align: middle;
+}
+
+header #titulo_nav{
+	width:70%;
+}
+
+header #titulo_nav nav a{
+	color:#fff;
+	border-bottom:4px solid #0af;	
+	font-size:.8em;
+	padding:.1em 1em;
+	text-decoration:none
+}
+
+header #titulo_nav nav a:hover{
+	border-color:#fff
+}
+
+header #titulo_nav h1{
+	height: 15px;
+}
+
+header #eslogan{
+	color: rgb(199, 199, 199);
+	height: 30px
+}
+
+#contenido{
+	/*background:#fafad6;*/
+	border-radius:1em;	
+	margin:2em;
+	padding:9em .5em;
+	width:100%;
+}
+
+#contenido fieldset{
+	border: 2px solid #ddd;
+	border-radius: .5em;
+}
+
+#info-cliente, #info-empresa, #info-credito{
+	color: rgb(139, 139, 139);
+}
