@@ -4,9 +4,9 @@ $conex = conectarse();
 
 $buscar_cedula = $_POST["buscar_cedula"];
 
-$query = "SELECT clientes.p_apellido, clientes.s_apellido, clientes.nombres, credito.porcentaje, credito.fecha ";
-$query .= "FROM clientes, credito ";
-$query .= "WHERE clientes.cedula = '{$buscar_cedula}'";
+$query = "SELECT p_apellido, s_apellido, nombres, porcentaje, fecha ";
+$query .= "FROM clientes INNER JOIN credito ";
+$query .= "WHERE clientes.cedula = '{$buscar_cedula}' AND clientes.id = credito.id";
 $query .= " ORDER BY credito.fecha DESC";
 
 $result = mysql_query($query, $conex);
