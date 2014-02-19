@@ -12,7 +12,7 @@ include("../php/header.php");
                                         <input type="text" placeholder="Nombres" name="nombres">
                                         <input type="text" placeholder="Primer Apellido" name="p_apellido">
                                         <input type="text" placeholder="Segundo Apellido" name="s_apellido"><br>
-                                        <br><input type="number" placeholder="Número de Cédula" name="cedula">
+                                        <br><input type="text" placeholder="Número de Cédula" name="cedula">
                                         <input type="text" placeholder="Dirección" name="direccion">
                                         <input type="text" placeholder="Número de Teléfono" name="telefono">
                                     </p>
@@ -20,7 +20,7 @@ include("../php/header.php");
 
                                 <div id="info-credito">
                                     <br><h2>Información del crédito</h2>
-                                    <input type="number" placeholder="Valor" name="valor">
+                                    <input type="text" placeholder="Valor" name="valor">
                                     <select name="porcentaje">
                                         <option value="0">--Escoja una Opción--</option>
                                         <option value="1">1%</option>
@@ -35,7 +35,7 @@ include("../php/header.php");
                                         <option value="10">10%</option>
                                     </select>
                                     <input type="date" name="fecha" placeholder="aaaa/mm/dd"><br>
-                                    <br><input type="number" placeholder="Número de Tarjeta" name="n_tarjeta">
+                                    <br><input type="text" placeholder="Número de Tarjeta" name="n_tarjeta">
                                     <input type="text" placeholder="Clave de Tajeta" name="clave">
                                     <input type="text" placeholder="Numero de Prenda" name="prenda">
                                 </div><br>

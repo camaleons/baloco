@@ -1,6 +1,6 @@
 <?php 
 function Conectarse() {
-	$pass="";
+	$pass="amir0846";
    $db="baloco";
 
    if (!($conex=mysql_connect("localhost","root",$pass)))
